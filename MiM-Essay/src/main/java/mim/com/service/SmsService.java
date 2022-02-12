@@ -30,7 +30,7 @@ public class SmsService {
         int number=(int)(Math.random()*(max-min+1)+min);
       
         
-        String msg ="Your OTP - "+number+ " please verify this OTP in your Application ~KK hoon 😅😅";
+        String msg ="Your OTP - "+number+ " please verify this OTP in your Application ~KK";
        
         
         Message message = Message.creator(new PhoneNumber(sms.getContactNumber()), new PhoneNumber(FROM_NUMBER), msg)
