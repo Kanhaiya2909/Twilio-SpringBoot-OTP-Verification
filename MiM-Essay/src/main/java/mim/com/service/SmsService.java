@@ -15,11 +15,11 @@ import mim.com.dto.StoreOTP;
 import mim.com.model.User;
 @Component
 public class SmsService {
-     private final String ACCOUNT_SID ="ACa16477d89ef39ee";
+     private final String ACCOUNT_SID ="ACa16477d89ef39ee********************";
 
-    private final String AUTH_TOKEN = "40f379954152bdf60bc";
+    private final String AUTH_TOKEN = "40f379954152bdf60bc*******************";
 
-    private final String FROM_NUMBER = "+19032";
+    private final String FROM_NUMBER = "+19032*****************";
 
     public void send(User sms) throws ParseException {
     	Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
